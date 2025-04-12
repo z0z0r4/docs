@@ -32,7 +32,7 @@ Root/
   "fileApi": "https://dl.mcxk.net/update",
   "forceUpdate": true,
   
-  "//origin": "发布页面，如果fileApi不存在，可从相关发布网站的API获取更新信息，暂未开放",
+  "//": "发布页面，如果fileApi不存在，可从相关发布网站的API获取更新信息，暂未开放",
   "origin": [
     {
       "type": "mcbbs",
@@ -51,7 +51,7 @@ Root/
     }
   ],
   
-  "//libraries": "这个可以暂时先不实现",
+  "//": "这个可以暂时先不实现",
   "libraries": [
     {
       "name": "cn.skinme.skinme-loader",
@@ -94,13 +94,13 @@ Root/
     }
   ],
   
-  "//settings": "这部分配置遵循服务器上的配置，是否允许玩家自行添加资源文件",
+  "//": "这部分配置遵循服务器上的配置，是否允许玩家自行添加资源文件",
   "settings": {
     "install_mods": false,
     "install_resourcepack": true
   },
   
-  "//launchInfo": "启动信息，遵循服务器上配置文件设定，如果forceUpdate为false则可以只遵循本地的",
+  "//": "启动信息，遵循服务器上配置文件设定，如果forceUpdate为false则可以只遵循本地的",
   "launchInfo": {
     "minMemory": 2048,
     "//supportJava": "支持的Java版本，该选项非强制，但需要警告玩家",
@@ -113,14 +113,14 @@ Root/
     "authlibInjectorServer": "https://littleskin.cn/api/yggdrasil"
   },
   
-  "//sandbox": "sandbox与antiCheating优先遵循服务器上配置文件的设定",
-  "//sandbox_comment": "沙盒，用于反作弊安全方面的设定",
+  "//": "sandbox与antiCheating优先遵循服务器上配置文件的设定",
+  "//": "沙盒，用于反作弊安全方面的设定",
   "sandbox": {
     "allowedPath": [],
     "permissionsGranted": []
   },
   
-  "//antiCheating": "反作弊核心，由启动器启动游戏前加载运行",
+  "//": "反作弊核心，由启动器启动游戏前加载运行",
   "antiCheating": {
     "core": "",
     "hash": ""
